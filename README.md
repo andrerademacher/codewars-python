@@ -6,14 +6,14 @@ Use the build script in order to build the custom Python 3.11 Docker image
 `andrerademacher/codewars-python311`.
 
 ```bash
-container/build.sh
+ci/build_docker_image.sh
 ```
 
 ## Run command in container
 The `container.sh` script makes running commands in the Docker container easy!
-To open a shell, just add the "sh" command:
+To open a shell, just add the "bash" command:
 ```bash
-container.sh sh
+container.sh bash
 ```
 
 The current Python version can be shown like this:
