@@ -2,7 +2,7 @@ import codewars_test as test
 from kata.GetNthEvenNumber.NthEven import nth_even
 
 
-@test.describe("Tests for nth even number")
+@test.describe("nth even number kata")
 def nth_even_test():
     @test.it("positive input values")
     def positive_input_values():

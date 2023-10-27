@@ -2,7 +2,7 @@ import codewars_test as test
 from kata.RemoveTheTime.Remove import shorten_to_date
 
 
-@test.describe("Basic Tests")
+@test.describe("Remove the time kata")
 def basic_tests():
     @test.it("Basic Tests")
     def basic_tests():
