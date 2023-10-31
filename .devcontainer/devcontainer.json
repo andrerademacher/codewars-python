@@ -1,0 +1,23 @@
+// for spec, @see https://containers.dev/implementors/spec/
+{
+  "name": "Codewars Python",
+
+  // for custom Dockerfile, @see https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
+
+  // features that are added to the container, @see https://containers.dev/features
+  "features": {
+    // currently none
+  },
+
+  // configure tool specific properties
+  "customizations": {
+
+    "vscode": {
+      // currently none
+    }
+  },
+
+  // install dependencies
+  "postCreateCommand": "pip install -r requirements.txt"
+}
