@@ -1,0 +1,1 @@
+codewars-test @ git+https://github.com/codewars/python-test-framework.git#egg=codewars_test
